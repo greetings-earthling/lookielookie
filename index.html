@@ -1,91 +1,66 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lookie Lookie | A Colourful Road Trip Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #111;
-  background: #fff;
-}
+<body>
 
-.hero {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 60px 24px;
-}
+  <main class="hero">
+    <div class="hero-inner">
+      <h1>Lookie Lookie</h1>
+      <p class="tagline">A Colourful Road Trip Game</p>
 
-.hero-inner {
-  max-width: 800px;
-}
+      <p class="intro">
+        A simple, screen-free game for short drives, long road trips,
+        and everyone in between.
+      </p>
 
-h1 {
-  font-size: clamp(64px, 12vw, 130px);
-  line-height: .85;
-  margin: 0;
-}
+      <a class="button" href="#how">How It Works</a>
+    </div>
+  </main>
 
-.tagline {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 28px 0;
-}
+  <section id="how">
+    <h2>Easy to Play</h2>
 
-.intro {
-  font-size: 21px;
-  line-height: 1.5;
-  max-width: 650px;
-  margin: 0 auto 32px;
-}
+    <div class="steps">
+      <div>
+        <strong>1. Flip a card.</strong>
+        <p>See what everyone is looking for.</p>
+      </div>
 
-section {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 80px 24px;
-}
+      <div>
+        <strong>2. Look outside.</strong>
+        <p>Spot the colour, vehicle, animal or roadside find.</p>
+      </div>
 
-h2 {
-  font-size: 42px;
-  margin-top: 0;
-}
+      <div>
+        <strong>3. Keep talking.</strong>
+        <p>Use the optional question while you look.</p>
+      </div>
+    </div>
+  </section>
 
-.steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
+  <section>
+    <h2>Made for the Road</h2>
+    <p>
+      Ages 3+. One player or the whole car. No setup, no scorekeeping,
+      and no pressure. Can't find it? Flip another card and keep going.
+    </p>
+  </section>
 
-.steps strong {
-  font-size: 24px;
-}
+  <section>
+    <h2>Played Lookie Lookie?</h2>
+    <p>Feedback or a card idea? Let us know!</p>
+    <a class="button" href="#">Share Feedback</a>
+  </section>
 
-.steps p,
-section > p {
-  font-size: 18px;
-  line-height: 1.6;
-}
+  <footer>
+    <p>hello@lookielookie.ca</p>
+  </footer>
 
-.button {
-  display: inline-block;
-  padding: 14px 24px;
-  background: #111;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-}
-
-footer {
-  text-align: center;
-  padding: 40px 20px;
-  border-top: 1px solid #ddd;
-}
-
-@media (max-width: 700px) {
-  .steps {
-    grid-template-columns: 1fr;
-  }
-}
+</body>
+</html>
