@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111;
+  background: #fff;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 24px;
+}
+
+.hero-inner {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: clamp(64px, 12vw, 130px);
+  line-height: .85;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 28px 0;
+}
+
+.intro {
+  font-size: 21px;
+  line-height: 1.5;
+  max-width: 650px;
+  margin: 0 auto 32px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+h2 {
+  font-size: 42px;
+  margin-top: 0;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.steps strong {
+  font-size: 24px;
+}
+
+.steps p,
+section > p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 24px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 700px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
