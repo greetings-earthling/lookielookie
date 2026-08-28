@@ -40,7 +40,7 @@ a {
 
 .hero {
   text-align: center;
-  padding: 55px 0 45px;
+  padding: 35px 0 50px;
   background: #fff;
 }
 
@@ -48,11 +48,17 @@ a {
   max-width: 900px;
 }
 
+
+/* CARD BACK */
+
 .hero-card {
-  width: min(420px, 80%);
-  margin: 0 auto 35px;
+  width: 300px;
+  margin: 55px auto 45px;
   border-radius: 22px;
   box-shadow: 0 18px 45px rgba(0,0,0,.16);
+
+  /* turns your portrait file sideways */
+  transform: rotate(90deg);
 }
 
 .hero h1 {
@@ -99,7 +105,7 @@ a {
 }
 
 
-/* CARD FAN */
+/* CARD GROUP */
 
 .card-showcase {
   padding: 25px 0 80px;
@@ -107,45 +113,58 @@ a {
 }
 
 .card-fan {
-  height: 390px;
+  height: 430px;
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
 }
 
+
+/* INDIVIDUAL CARDS */
+
 .fan-card {
   position: absolute;
   width: 190px;
-  left: 50%;
-  bottom: 20px;
   border-radius: 18px;
   box-shadow: 0 15px 30px rgba(0,0,0,.18);
-  transform-origin: bottom center;
 }
 
+
+/* deliberately messy arrangement */
+
 .card-1 {
-  transform: translateX(-190%) rotate(-12deg);
+  left: 8%;
+  top: 45px;
+  transform: rotate(-9deg);
   z-index: 1;
 }
 
 .card-2 {
-  transform: translateX(-120%) rotate(-6deg);
+  left: 25%;
+  top: 20px;
+  transform: rotate(4deg);
   z-index: 2;
 }
 
 .card-3 {
-  transform: translateX(-50%);
-  z-index: 5;
+  left: 42%;
+  top: 55px;
+  transform: rotate(-2deg);
+  z-index: 4;
 }
 
 .card-4 {
-  transform: translateX(20%) rotate(6deg);
-  z-index: 2;
+  left: 59%;
+  top: 15px;
+  transform: rotate(7deg);
+  z-index: 3;
 }
 
 .card-5 {
-  transform: translateX(90%) rotate(12deg);
-  z-index: 1;
+  left: 76%;
+  top: 50px;
+  transform: rotate(-5deg);
+  z-index: 2;
 }
 
 
@@ -268,11 +287,12 @@ footer {
   }
 
   .hero {
-    padding-top: 35px;
+    padding-top: 25px;
   }
 
   .hero-card {
-    width: min(340px, 88%);
+    width: 240px;
+    margin: 45px auto 35px;
     border-radius: 18px;
   }
 
@@ -281,7 +301,7 @@ footer {
   }
 
   .card-fan {
-    height: 285px;
+    height: 300px;
     transform: scale(.72);
     transform-origin: top center;
     margin-bottom: -70px;
