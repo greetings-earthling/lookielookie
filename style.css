@@ -37,7 +37,6 @@ a {
   text-align: center;
 }
 
-
 /* BRAND FONT */
 
 h1,
@@ -50,7 +49,6 @@ h3 {
   font-family: "DM Sans", Arial, sans-serif;
   font-weight: 700;
 }
-
 
 /* HERO */
 
@@ -75,8 +73,8 @@ h3 {
 .hero h1 {
   max-width: 720px;
   margin: 0 auto 14px;
-  font-size: clamp(36px, 5.5vw, 60px);
-  line-height: 1.03;
+  font-size: clamp(34px, 5vw, 54px);
+  line-height: 1.08;
 }
 
 .hero-copy {
@@ -95,7 +93,6 @@ h3 {
   flex-wrap: wrap;
 }
 
-
 /* BUTTONS */
 
 .button {
@@ -104,7 +101,7 @@ h3 {
   border-radius: 999px;
   text-decoration: none;
   font-family: "DM Sans", Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 15px;
   transition: transform .15s ease, box-shadow .15s ease;
 }
@@ -124,7 +121,6 @@ h3 {
   color: #111;
   border: 2px solid #111;
 }
-
 
 /* CARD GROUP */
 
@@ -182,7 +178,6 @@ h3 {
   z-index: 2;
 }
 
-
 /* SECTIONS */
 
 .section {
@@ -200,13 +195,13 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.4px;
-  color: #666;
+  color: #777;
 }
 
 .section h2 {
   margin: 0 0 24px;
-  font-size: clamp(32px, 4.5vw, 48px);
-  line-height: 1.08;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.1;
 }
 
 .section p {
@@ -214,7 +209,6 @@ h3 {
   line-height: 1.55;
   color: #333;
 }
-
 
 /* HOW IT WORKS */
 
@@ -271,13 +265,11 @@ h3 {
   color: #111 !important;
 }
 
-
 /* FEEDBACK */
 
 #feedback {
   background: #fff;
 }
-
 
 /* WAITING LIST */
 
@@ -285,14 +277,12 @@ h3 {
   background: #f7f7f7;
 }
 
-
 /* BUSINESS */
 
 .small-logo {
   width: min(310px, 78%);
   margin: 0 auto 28px;
 }
-
 
 /* FOOTER */
 
@@ -314,7 +304,6 @@ footer {
 .footer-logo {
   width: 150px;
 }
-
 
 /* MOBILE */
 
