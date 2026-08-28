@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caprasimo&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -8,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Bree Serif", Georgia, serif;
   color: #111;
   background: #fff;
 }
@@ -35,6 +37,15 @@ a {
   text-align: center;
 }
 
+/* BRAND FONT */
+
+h1,
+h2,
+h3,
+.button,
+.eyebrow {
+  font-family: "Caprasimo", Georgia, serif;
+}
 
 /* HERO */
 
@@ -48,16 +59,13 @@ a {
   max-width: 900px;
 }
 
-
 /* CARD BACK */
 
 .hero-card {
   width: 300px;
   margin: 55px auto 45px;
   border-radius: 22px;
-  box-shadow: 0 18px 45px rgba(0,0,0,.16);
-
-  /* turns your portrait file sideways */
+  box-shadow: 0 18px 45px rgba(0, 0, 0, .16);
   transform: rotate(90deg);
 }
 
@@ -82,7 +90,6 @@ a {
   flex-wrap: wrap;
 }
 
-
 /* BUTTONS */
 
 .button {
@@ -104,7 +111,6 @@ a {
   border: 2px solid #111;
 }
 
-
 /* CARD GROUP */
 
 .card-showcase {
@@ -119,18 +125,16 @@ a {
   margin: 0 auto;
 }
 
-
 /* INDIVIDUAL CARDS */
 
 .fan-card {
   position: absolute;
   width: 190px;
   border-radius: 18px;
-  box-shadow: 0 15px 30px rgba(0,0,0,.18);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .18);
 }
 
-
-/* deliberately messy arrangement */
+/* DELIBERATELY MESSY ARRANGEMENT */
 
 .card-1 {
   left: 8%;
@@ -167,7 +171,6 @@ a {
   z-index: 2;
 }
 
-
 /* SECTIONS */
 
 .section {
@@ -196,7 +199,6 @@ a {
   font-size: 18px;
   line-height: 1.6;
 }
-
 
 /* HOW IT WORKS */
 
@@ -240,13 +242,11 @@ a {
   margin: 18px 0 8px;
 }
 
-
 /* WAITING LIST */
 
 .waiting-section {
   background: #f6f6f6;
 }
-
 
 /* BUSINESS */
 
@@ -254,7 +254,6 @@ a {
   width: min(360px, 80%);
   margin: 0 auto 45px;
 }
-
 
 /* FOOTER */
 
@@ -275,7 +274,6 @@ footer {
 .footer-logo {
   width: 170px;
 }
-
 
 /* MOBILE */
 
