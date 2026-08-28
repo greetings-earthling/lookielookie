@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:wght@400;500;600;700;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "DM Sans", Arial, sans-serif;
   color: #111;
   background: #fff;
 }
@@ -98,7 +98,7 @@ h3 {
   padding: 13px 22px;
   border-radius: 999px;
   text-decoration: none;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "DM Sans", Arial, sans-serif;
   font-weight: 800;
   font-size: 15px;
   transition: transform .15s ease, box-shadow .15s ease;
@@ -195,7 +195,7 @@ h3 {
   border-radius: 999px;
   background: #111;
   color: #fff;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "DM Sans", Arial, sans-serif;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
