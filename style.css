@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:wght@400;500;600;700;800&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -37,8 +35,6 @@ a {
   text-align: center;
 }
 
-/* BRAND FONT */
-
 h1,
 h2 {
   font-family: "Caprasimo", Georgia, serif;
@@ -49,8 +45,6 @@ h3 {
   font-family: "DM Sans", Arial, sans-serif;
   font-weight: 700;
 }
-
-/* HERO */
 
 .hero {
   text-align: center;
@@ -82,7 +76,7 @@ h3 {
   margin: 0 auto 24px;
   font-size: 20px;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
   color: #333;
 }
 
@@ -93,15 +87,13 @@ h3 {
   flex-wrap: wrap;
 }
 
-/* BUTTONS */
-
 .button {
   display: inline-block;
   padding: 13px 22px;
   border-radius: 999px;
   text-decoration: none;
   font-family: "DM Sans", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
   transition: transform .15s ease, box-shadow .15s ease;
 }
@@ -121,8 +113,6 @@ h3 {
   color: #111;
   border: 2px solid #111;
 }
-
-/* CARD GROUP */
 
 .card-showcase {
   padding: 5px 0 45px;
@@ -178,8 +168,6 @@ h3 {
   z-index: 2;
 }
 
-/* SECTIONS */
-
 .section {
   padding: 58px 0;
 }
@@ -192,7 +180,7 @@ h3 {
   margin: 0 0 10px;
   font-family: "DM Sans", Arial, sans-serif;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.4px;
   color: #777;
@@ -207,10 +195,9 @@ h3 {
 .section p {
   font-size: 17px;
   line-height: 1.55;
+  font-weight: 400;
   color: #333;
 }
-
-/* HOW IT WORKS */
 
 .steps,
 .features {
@@ -244,12 +231,12 @@ h3 {
   border-radius: 50%;
   background: #111;
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .step h3,
 .features h3 {
-  font-size: 23px;
+  font-size: 22px;
   margin: 16px 0 7px;
 }
 
@@ -261,30 +248,22 @@ h3 {
 .friends-line {
   text-align: center;
   margin: 28px 0 0;
-  font-weight: 700;
+  font-weight: 600;
   color: #111 !important;
 }
-
-/* FEEDBACK */
 
 #feedback {
   background: #fff;
 }
 
-/* WAITING LIST */
-
 .waiting-section {
   background: #f7f7f7;
 }
-
-/* BUSINESS */
 
 .small-logo {
   width: min(310px, 78%);
   margin: 0 auto 28px;
 }
-
-/* FOOTER */
 
 footer {
   padding: 28px 0;
@@ -298,14 +277,12 @@ footer {
   gap: 20px;
   flex-wrap: wrap;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer-logo {
   width: 150px;
 }
-
-/* MOBILE */
 
 @media (max-width: 750px) {
 
