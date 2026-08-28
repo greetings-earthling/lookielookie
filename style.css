@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@400;500;600;700;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   color: #111;
   background: #fff;
 }
@@ -37,6 +37,7 @@ a {
   text-align: center;
 }
 
+
 /* BRAND FONT */
 
 h1,
@@ -45,11 +46,12 @@ h3 {
   font-family: "Caprasimo", Georgia, serif;
 }
 
+
 /* HERO */
 
 .hero {
   text-align: center;
-  padding: 20px 0 35px;
+  padding: 15px 0 30px;
   background: #fff;
 }
 
@@ -57,11 +59,9 @@ h3 {
   max-width: 900px;
 }
 
-/* CARD BACK */
-
 .hero-card {
-  width: 270px;
-  margin: 45px auto 30px;
+  width: 265px;
+  margin: 45px auto 25px;
   border-radius: 22px;
   box-shadow: 0 16px 35px rgba(0, 0, 0, .14);
   transform: rotate(90deg);
@@ -75,11 +75,11 @@ h3 {
 }
 
 .hero-copy {
-  max-width: 620px;
+  max-width: 650px;
   margin: 0 auto 24px;
   font-size: 20px;
-  line-height: 1.45;
-  font-weight: 600;
+  line-height: 1.5;
+  font-weight: 500;
   color: #333;
 }
 
@@ -90,6 +90,7 @@ h3 {
   flex-wrap: wrap;
 }
 
+
 /* BUTTONS */
 
 .button {
@@ -97,10 +98,9 @@ h3 {
   padding: 13px 22px;
   border-radius: 999px;
   text-decoration: none;
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 800;
-  font-size: 16px;
-  letter-spacing: .1px;
+  font-size: 15px;
   transition: transform .15s ease, box-shadow .15s ease;
 }
 
@@ -120,10 +120,11 @@ h3 {
   border: 2px solid #111;
 }
 
+
 /* CARD GROUP */
 
 .card-showcase {
-  padding: 10px 0 55px;
+  padding: 5px 0 45px;
   overflow: hidden;
 }
 
@@ -176,10 +177,11 @@ h3 {
   z-index: 2;
 }
 
+
 /* SECTIONS */
 
 .section {
-  padding: 65px 0;
+  padding: 58px 0;
 }
 
 .alt {
@@ -193,7 +195,7 @@ h3 {
   border-radius: 999px;
   background: #111;
   color: #fff;
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
@@ -201,16 +203,17 @@ h3 {
 }
 
 .section h2 {
-  margin: 0 0 26px;
+  margin: 0 0 24px;
   font-size: clamp(34px, 5vw, 52px);
   line-height: 1.05;
 }
 
 .section p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.55;
   color: #333;
 }
+
 
 /* HOW IT WORKS */
 
@@ -260,22 +263,35 @@ h3 {
   margin: 0;
 }
 
-/* FEEDBACK / WAITING */
+.friends-line {
+  text-align: center;
+  margin: 28px 0 0;
+  font-weight: 700;
+  color: #111 !important;
+}
+
+
+/* FEEDBACK */
 
 #feedback {
   background: #fff;
 }
 
+
+/* WAITING LIST */
+
 .waiting-section {
   background: #f7f7f7;
 }
+
 
 /* BUSINESS */
 
 .small-logo {
   width: min(310px, 78%);
-  margin: 0 auto 30px;
+  margin: 0 auto 28px;
 }
+
 
 /* FOOTER */
 
@@ -298,6 +314,7 @@ footer {
   width: 150px;
 }
 
+
 /* MOBILE */
 
 @media (max-width: 750px) {
@@ -308,7 +325,7 @@ footer {
   }
 
   .hero {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .hero-card {
@@ -322,7 +339,7 @@ footer {
   }
 
   .section {
-    padding: 48px 0;
+    padding: 45px 0;
   }
 
   .card-fan {
