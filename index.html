@@ -230,9 +230,13 @@
 
 <footer>
   <div class="wrap footer-simple">
-    <p>© 2026 Lookie Lookie</p>
+    <p>© <span id="year"></span> Lookie Lookie</p>
   </div>
 </footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 <script>
   window.addEventListener("load", function () {
     if (window.innerWidth <= 750) {
