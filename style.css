@@ -144,7 +144,7 @@ p {
 /* CARD DISPLAY */
 
 .cards-section {
-  padding: 15px 0 20px;
+  padding: 15px 0 30px;
   overflow: hidden;
 
   background: linear-gradient(
@@ -160,7 +160,7 @@ p {
 
 .card-row {
   position: relative;
-  height: 285px;
+  height: 330px;
   max-width: 980px;
   margin: 0 auto;
 }
