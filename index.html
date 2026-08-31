@@ -10,20 +10,26 @@
     name="description"
     content="Lookie Lookie is a simple, screen-free road trip game for ages 3+."
   >
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <header class="hero">
-    <div class="wrap hero-content">
+    <div class="wrap hero-inner">
 
       <img
         src="back.png"
-        alt="Lookie Lookie - A Colourful Road Trip Game"
+        alt="Lookie Lookie card back"
         class="hero-card"
       >
 
@@ -34,17 +40,14 @@
         and work together while you enjoy the ride.
       </p>
 
-      <div class="hero-buttons">
+      <div class="hero-actions">
 
-        <a
-          class="button primary"
-          href="#how"
-        >
+        <a class="button button-dark" href="#how">
           How It Works
         </a>
 
         <a
-          class="button secondary"
+          class="button button-light"
           href="https://forms.gle/H3FiRuhJKGvZKPXJA"
           target="_blank"
           rel="noopener"
@@ -60,18 +63,20 @@
 
   <main>
 
-    <section class="card-showcase">
+    <section class="cards-section">
       <div class="wrap">
 
-        <div class="card-fan">
+        <div class="card-row">
 
-          <img src="1.png" alt="Lookie Lookie card" class="fan-card card-1">
-          <img src="2.png" alt="Lookie Lookie card" class="fan-card card-2">
-          <img src="3.png" alt="Lookie Lookie card" class="fan-card card-3">
-          <img src="4.png" alt="Lookie Lookie card" class="fan-card card-4">
-          <img src="5.png" alt="Lookie Lookie card" class="fan-card card-5">
+          <img src="1.png" alt="Lookie Lookie card" class="game-card card-one">
+          <img src="2.png" alt="Lookie Lookie card" class="game-card card-two">
+          <img src="3.png" alt="Lookie Lookie card" class="game-card card-three">
+          <img src="4.png" alt="Lookie Lookie card" class="game-card card-four">
+          <img src="5.png" alt="Lookie Lookie card" class="game-card card-five">
 
         </div>
+
+        <p class="swipe-hint">‹ Swipe to see more ›</p>
 
       </div>
     </section>
@@ -80,26 +85,26 @@
     <section id="how" class="section">
       <div class="wrap">
 
-        <p class="eyebrow">Super simple</p>
+        <p class="section-label">Super simple</p>
 
         <h2>How It Works</h2>
 
         <div class="steps">
 
-          <div class="step">
-            <span>1</span>
+          <div class="info-card">
+            <div class="step-number">1</div>
             <h3>Flip a card.</h3>
             <p>Let everyone know what to look for.</p>
           </div>
 
-          <div class="step">
-            <span>2</span>
+          <div class="info-card">
+            <div class="step-number">2</div>
             <h3>Spot it.</h3>
             <p>Work together and keep an eye out.</p>
           </div>
 
-          <div class="step">
-            <span>3</span>
+          <div class="info-card">
+            <div class="step-number">3</div>
             <h3>Socialize.</h3>
             <p>Use the optional question while you search.</p>
           </div>
@@ -114,41 +119,33 @@
     </section>
 
 
-    <section class="section alt">
+    <section class="section section-grey">
       <div class="wrap">
 
-        <p class="eyebrow">Made for the road</p>
+        <p class="section-label">Made for the road</p>
 
         <h2>Easy for little kids. Fun for grown-ups too.</h2>
 
         <div class="features">
 
-          <div>
+          <div class="info-card">
             <h3>Ages 3+</h3>
-            <p>
-              If you can spot a red car or a dog, you can play.
-            </p>
+            <p>If you can spot a red car or a dog, you can play.</p>
           </div>
 
-          <div>
+          <div class="info-card">
             <h3>1+ Players</h3>
-            <p>
-              Play on your own or take turns flipping cards and searching together.
-            </p>
+            <p>Play alone or take turns flipping cards and searching together.</p>
           </div>
 
-          <div>
+          <div class="info-card">
             <h3>Screen-Free</h3>
-            <p>
-              Something fun to do while actually looking out the window.
-            </p>
+            <p>Something fun to do while actually looking out the window.</p>
           </div>
 
-          <div>
+          <div class="info-card">
             <h3>No Pressure</h3>
-            <p>
-              Can't find it? Flip another card. There are no road trip referees.
-            </p>
+            <p>Can't find it? Flip another card. There are no road trip referees.</p>
           </div>
 
         </div>
@@ -157,10 +154,10 @@
     </section>
 
 
-    <section id="feedback" class="section centre">
+    <section class="section centred">
       <div class="wrap narrow">
 
-        <p class="eyebrow">Played Lookie Lookie?</p>
+        <p class="section-label">Played Lookie Lookie?</p>
 
         <h2>Tell us what you think.</h2>
 
@@ -169,7 +166,7 @@
         </p>
 
         <a
-          class="button primary"
+          class="button button-dark"
           href="https://forms.gle/nzdw8i3aycYnb6HE8"
           target="_blank"
           rel="noopener"
@@ -181,10 +178,10 @@
     </section>
 
 
-    <section id="waiting-list" class="section waiting-section">
-      <div class="wrap narrow centre">
+    <section class="section section-grey centred">
+      <div class="wrap narrow">
 
-        <p class="eyebrow">Coming soon</p>
+        <p class="section-label">Coming soon</p>
 
         <h2>Want Lookie Lookie in your glove box?</h2>
 
@@ -193,7 +190,7 @@
         </p>
 
         <a
-          class="button primary"
+          class="button button-dark"
           href="https://forms.gle/H3FiRuhJKGvZKPXJA"
           target="_blank"
           rel="noopener"
@@ -205,16 +202,16 @@
     </section>
 
 
-    <section id="business" class="section centre">
+    <section class="section centred">
       <div class="wrap narrow">
 
         <img
           src="logo_withtagline.svg"
           alt="Lookie Lookie - A Colourful Road Trip Game"
-          class="small-logo"
+          class="contact-logo"
         >
 
-        <p class="eyebrow">Let's talk</p>
+        <p class="section-label">Let's talk</p>
 
         <h2>Interested in Lookie Lookie?</h2>
 
@@ -240,42 +237,12 @@
         class="footer-logo"
       >
 
-      <div>
-        <a href="mailto:hello@lookielookie.ca">
-          hello@lookielookie.ca
-        </a>
-      </div>
+      <a href="mailto:hello@lookielookie.ca">
+        hello@lookielookie.ca
+      </a>
 
     </div>
   </footer>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const row = document.querySelector(".card-fan");
 
-  if (!row || window.innerWidth > 750) return;
-
-  let direction = 1;
-  let paused = false;
-
-  const autoScroll = setInterval(() => {
-    if (paused) return;
-
-    row.scrollLeft += direction;
-
-    if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 2) {
-      direction = -1;
-    }
-
-    if (row.scrollLeft <= 0) {
-      direction = 1;
-    }
-  }, 30);
-
-  row.addEventListener("touchstart", () => paused = true);
-  row.addEventListener("touchend", () => {
-    setTimeout(() => paused = false, 1500);
-  });
-});
-</script>
 </body>
 </html>
