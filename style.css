@@ -291,10 +291,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-body {
-  background: pink;
-}
-  
   .hero {
     padding-top: 5px;
   }
@@ -313,16 +309,14 @@ body {
     padding: 45px 0;
   }
 
-  /* MOBILE CARD DISPLAY */
-
   .card-showcase {
     padding: 15px 0 35px;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .card-fan {
-    height: auto;
     width: 100%;
+    height: auto;
     display: flex;
     gap: 14px;
     overflow-x: auto;
