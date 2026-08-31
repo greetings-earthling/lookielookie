@@ -68,8 +68,8 @@ p {
       transparent 82%
     ),
     linear-gradient(
-      rgba(255, 255, 255, .92),
-      rgba(255, 255, 255, .92)
+      rgba(255, 255, 255, .86),
+      rgba(255, 255, 255, .86)
     ),
     url("background.png");
 
@@ -246,8 +246,8 @@ p {
 .spot-section {
   background-image:
     linear-gradient(
-      rgba(247, 247, 247, .92),
-      rgba(247, 247, 247, .92)
+      rgba(247, 247, 247, .86),
+      rgba(247, 247, 247, .86)
     ),
     url("background.png");
 
