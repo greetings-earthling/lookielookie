@@ -14,8 +14,8 @@ body {
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
   max-width: 680px;
 }
 
-.centre {
+.centred {
   text-align: center;
 }
 
@@ -42,228 +42,228 @@ h2 {
 }
 
 h3 {
-  font-family: "DM Sans", Arial, sans-serif;
+  margin: 0;
+  font-size: 22px;
   font-weight: 700;
 }
 
-.hero {
-  text-align: center;
-  padding: 15px 0 30px;
-  background: #fff;
+p {
+  line-height: 1.55;
 }
 
-.hero-content {
+
+/* HERO */
+
+.hero {
+  padding: 35px 0 35px;
+  text-align: center;
+}
+
+.hero-inner {
   max-width: 900px;
 }
 
 .hero-card {
-  width: 265px;
-  margin: 45px auto 25px;
-  border-radius: 22px;
+  width: 260px;
+  margin: 55px auto 35px;
+  border-radius: 20px;
   box-shadow: 0 16px 35px rgba(0, 0, 0, .14);
   transform: rotate(90deg);
 }
 
 .hero h1 {
   max-width: 720px;
-  margin: 0 auto 14px;
-  font-size: clamp(34px, 5vw, 54px);
+  margin: 0 auto 16px;
+  font-size: clamp(36px, 5vw, 54px);
   line-height: 1.08;
 }
 
 .hero-copy {
   max-width: 650px;
   margin: 0 auto 24px;
-  font-size: 20px;
-  line-height: 1.5;
-  font-weight: 400;
+  font-size: 19px;
   color: #333;
 }
 
-.hero-buttons {
+.hero-actions {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
+
+/* BUTTONS */
+
 .button {
   display: inline-block;
   padding: 13px 22px;
-  border-radius: 999px;
+  border-radius: 10px;
   text-decoration: none;
-  font-family: "DM Sans", Arial, sans-serif;
-  font-weight: 600;
   font-size: 15px;
-  transition: transform .15s ease, box-shadow .15s ease;
+  font-weight: 600;
 }
 
-.button:hover {
-  transform: translateY(-2px);
-}
-
-.primary {
+.button-dark {
   background: #111;
   color: #fff;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
 }
 
-.secondary {
+.button-light {
   background: #fff;
   color: #111;
   border: 2px solid #111;
 }
 
-.card-showcase {
-  padding: 5px 0 45px;
+
+/* CARD DISPLAY */
+
+.cards-section {
+  padding: 25px 0 55px;
   overflow: hidden;
 }
 
-.card-fan {
-  height: 390px;
+.card-row {
   position: relative;
-  max-width: 1000px;
+  height: 390px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
-.fan-card {
+.game-card {
   position: absolute;
   width: 190px;
-  border-radius: 18px;
+  border-radius: 16px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, .16);
 }
 
-.card-1 {
-  left: 8%;
+.card-one {
+  left: 7%;
   top: 45px;
-  transform: rotate(-9deg);
-  z-index: 1;
+  transform: rotate(-8deg);
 }
 
-.card-2 {
-  left: 25%;
+.card-two {
+  left: 24%;
   top: 20px;
   transform: rotate(4deg);
-  z-index: 2;
 }
 
-.card-3 {
-  left: 42%;
+.card-three {
+  left: 41%;
   top: 55px;
   transform: rotate(-2deg);
-  z-index: 4;
-}
-
-.card-4 {
-  left: 59%;
-  top: 15px;
-  transform: rotate(7deg);
   z-index: 3;
 }
 
-.card-5 {
-  left: 76%;
-  top: 50px;
-  transform: rotate(-5deg);
+.card-four {
+  left: 58%;
+  top: 15px;
+  transform: rotate(6deg);
   z-index: 2;
 }
 
-.section {
-  padding: 58px 0;
+.card-five {
+  left: 75%;
+  top: 45px;
+  transform: rotate(-5deg);
 }
 
-.alt {
+.swipe-hint {
+  display: none;
+}
+
+
+/* GENERAL SECTIONS */
+
+.section {
+  padding: 60px 0;
+}
+
+.section-grey {
   background: #f7f7f7;
 }
 
-.eyebrow {
+.section-label {
   margin: 0 0 10px;
-  font-family: "DM Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.3px;
   color: #777;
 }
 
 .section h2 {
-  margin: 0 0 24px;
+  margin: 0 0 26px;
   font-size: clamp(30px, 4vw, 44px);
   line-height: 1.1;
 }
 
-.section p {
+.section > .wrap > p,
+.narrow > p {
   font-size: 17px;
-  line-height: 1.55;
-  font-weight: 400;
   color: #333;
 }
 
-.steps,
-.features {
+
+/* HOW IT WORKS */
+
+.steps {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 
-.steps {
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .features {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
 }
 
-.step,
-.features > div {
+.info-card {
   padding: 26px;
-  border: 1px solid #ddd;
-  border-radius: 20px;
   background: #fff;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, .05);
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .05);
 }
 
-.step span {
-  display: inline-flex;
-  width: 38px;
-  height: 38px;
+.info-card p {
+  margin: 8px 0 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.step-number {
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 15px;
   border-radius: 50%;
   background: #111;
   color: #fff;
   font-weight: 700;
 }
 
-.step h3,
-.features h3 {
-  font-size: 22px;
-  margin: 16px 0 7px;
-}
-
-.step p,
-.features p {
-  margin: 0;
-}
-
 .friends-line {
-  text-align: center;
   margin: 28px 0 0;
+  text-align: center;
   font-weight: 600;
-  color: #111 !important;
+  color: #111;
 }
 
-#feedback {
-  background: #fff;
-}
 
-.waiting-section {
-  background: #f7f7f7;
-}
+/* CONTACT */
 
-.small-logo {
-  width: min(310px, 78%);
+.contact-logo {
+  width: min(300px, 80%);
   margin: 0 auto 28px;
 }
+
+
+/* FOOTER */
 
 footer {
   padding: 28px 0;
@@ -272,8 +272,8 @@ footer {
 
 .footer-inner {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
   font-size: 14px;
@@ -284,55 +284,79 @@ footer {
   width: 150px;
 }
 
+
+/* MOBILE */
+
 @media (max-width: 750px) {
 
-  .steps,
-  .features {
-    grid-template-columns: 1fr;
+  .wrap {
+    width: min(100% - 28px, 1080px);
   }
 
   .hero {
-    padding-top: 5px;
+    padding-top: 15px;
   }
 
   .hero-card {
-    width: 225px;
-    margin: 40px auto 25px;
-    border-radius: 18px;
+    width: 220px;
+    margin: 45px auto 30px;
+    border-radius: 17px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
   }
 
   .hero-copy {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .section {
     padding: 45px 0;
   }
 
-  .card-showcase {
-    padding: 15px 0 35px;
-    overflow: hidden;
+  .steps,
+  .features {
+    grid-template-columns: 1fr;
   }
 
-  .card-fan {
-    width: 100%;
-    height: auto;
+  .cards-section {
+    padding: 10px 0 35px;
+  }
+
+  .card-row {
     display: flex;
+    position: static;
+    height: auto;
     gap: 14px;
     overflow-x: auto;
-    padding: 10px calc(50vw - 85px) 20px;
     margin: 0;
+    padding: 12px calc(50vw - 95px) 18px;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
   }
 
-  .fan-card {
+  .card-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .game-card {
     position: static;
-    flex: 0 0 170px;
-    width: 170px;
+    flex: 0 0 190px;
+    width: 190px;
+    transform: none;
     border-radius: 14px;
-    transform: none !important;
     scroll-snap-align: center;
+  }
+
+  .swipe-hint {
+    display: block;
+    margin: 2px 0 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
   }
 
   .footer-inner {
