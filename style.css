@@ -320,7 +320,7 @@ footer {
     display: flex;
     gap: 14px;
     overflow-x: auto;
-    padding: 10px 20px 20px;
+    padding: 10px calc(50vw - 85px) 20px;
     margin: 0;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
