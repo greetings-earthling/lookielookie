@@ -76,7 +76,7 @@
 
         </div>
 
-        <p class="swipe-hint">‹ Swipe to see more ›</p>
+        <p class="swipe-hint">&lt; SWIPE &gt;</p>
 
       </div>
     </section>
@@ -228,30 +228,31 @@
   </main>
 
 
-<footer>
-  <div class="wrap footer-simple">
-    <p>© <span id="year"></span> Lookie Lookie</p>
-  </div>
-</footer>
+  <footer>
+    <div class="wrap footer-simple">
+      <p>© <span id="year"></span> Lookie Lookie</p>
+    </div>
+  </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-<script>
-  window.addEventListener("load", function () {
-    if (window.innerWidth <= 750) {
-      const row = document.querySelector(".card-row");
-      const cards = document.querySelectorAll(".game-card");
-      const middleCard = cards[2];
 
-      if (row && middleCard) {
-        row.scrollLeft =
-          middleCard.offsetLeft -
-          (row.clientWidth / 2) +
-          (middleCard.clientWidth / 2);
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    window.addEventListener("load", function () {
+      if (window.innerWidth <= 750) {
+        const row = document.querySelector(".card-row");
+        const cards = document.querySelectorAll(".game-card");
+        const middleCard = cards[2];
+
+        if (row && middleCard) {
+          row.scrollLeft =
+            middleCard.offsetLeft -
+            (row.clientWidth / 2) +
+            (middleCard.clientWidth / 2);
+        }
       }
-    }
-  });
-</script>
+    });
+  </script>
+
 </body>
 </html>
