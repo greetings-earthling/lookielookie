@@ -67,7 +67,7 @@ p {
       rgba(170, 120, 255, .05) 70%,
       transparent 82%
     ),
-    url("background.png");
+    url("images/background.png");
 
   background-size:
     auto,
@@ -246,7 +246,7 @@ p {
       rgba(247, 247, 247, .45),
       rgba(247, 247, 247, .45)
     ),
-    url("background.png");
+    url("images/background.png");
 
   background-size:
     auto,
