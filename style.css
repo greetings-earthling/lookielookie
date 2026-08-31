@@ -225,6 +225,18 @@ p {
   color: #333;
 }
 
+.business-section {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 86, 86, .11),
+      rgba(255, 180, 70, .12),
+      rgba(255, 225, 90, .10),
+      rgba(95, 190, 125, .09),
+      rgba(80, 170, 230, .11),
+      rgba(155, 105, 220, .11)
+    );
+}
 
 /* HOW IT WORKS */
 
