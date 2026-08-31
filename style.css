@@ -55,7 +55,7 @@ p {
 /* HERO */
 
 .hero {
-  padding: 35px 0 35px;
+  padding: 35px 0;
   text-align: center;
   background:
     radial-gradient(
@@ -224,6 +224,9 @@ p {
   color: #333;
 }
 
+
+/* BUSINESS CTA */
+
 .business-section {
   background: linear-gradient(
     135deg,
@@ -235,6 +238,7 @@ p {
     rgba(155, 105, 220, .15) 100%
   );
 }
+
 
 /* HOW IT WORKS */
 
@@ -381,12 +385,8 @@ footer {
     margin: 2px 0 0;
     text-align: center;
     font-size: 12px;
-    font-weight: 500;
-    color: #999;
-  }
-
-  .footer-inner {
-    flex-direction: column;
-    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #888;
   }
 }
