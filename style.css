@@ -309,15 +309,67 @@ footer {
     padding: 45px 0;
   }
 
+  /* MOBILE CARD DISPLAY */
+
+  .card-showcase {
+    padding: 10px 0 35px;
+    overflow: hidden;
+  }
+
   .card-fan {
-    height: 285px;
-    transform: scale(.72);
-    transform-origin: top center;
-    margin-bottom: -75px;
+    position: relative;
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+    transform: none;
+  }
+
+  .fan-card {
+    width: 120px;
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    border-radius: 12px;
+  }
+
+  .card-1 {
+    left: calc(50% - 130px);
+    bottom: 15px;
+    transform: translateX(-50%) rotate(-7deg);
+    z-index: 1;
+  }
+
+  .card-2 {
+    left: calc(50% - 65px);
+    bottom: 32px;
+    transform: translateX(-50%) rotate(-3deg);
+    z-index: 2;
+  }
+
+  .card-3 {
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+
+  .card-4 {
+    left: calc(50% + 65px);
+    bottom: 32px;
+    transform: translateX(-50%) rotate(3deg);
+    z-index: 2;
+  }
+
+  .card-5 {
+    left: calc(50% + 130px);
+    bottom: 15px;
+    transform: translateX(-50%) rotate(7deg);
+    z-index: 1;
   }
 
   .footer-inner {
     flex-direction: column;
     text-align: center;
   }
+}
 }
