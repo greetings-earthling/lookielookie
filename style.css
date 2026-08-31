@@ -61,27 +61,24 @@ p {
   background-image:
     radial-gradient(
       circle at 50% 30%,
-      rgba(255, 220, 80, .10),
-      rgba(255, 120, 80, .07) 25%,
-      rgba(120, 190, 255, .06) 50%,
-      rgba(170, 120, 255, .04) 70%,
+      rgba(255, 220, 80, .12),
+      rgba(255, 120, 80, .08) 25%,
+      rgba(120, 190, 255, .07) 50%,
+      rgba(170, 120, 255, .05) 70%,
       transparent 82%
-    ),
-    linear-gradient(
-      rgba(255, 255, 255, .76),
-      rgba(255, 255, 255, .76)
     ),
     url("background.png");
 
   background-size:
     auto,
-    auto,
-    900px auto;
+    800px auto;
 
   background-repeat:
     no-repeat,
-    repeat,
     repeat;
+
+  background-blend-mode:
+    multiply;
 }
 
 .hero-inner {
@@ -246,18 +243,21 @@ p {
 .spot-section {
   background-image:
     linear-gradient(
-      rgba(247, 247, 247, .76),
-      rgba(247, 247, 247, .76)
+      rgba(247, 247, 247, .45),
+      rgba(247, 247, 247, .45)
     ),
     url("background.png");
 
   background-size:
     auto,
-    900px auto;
+    800px auto;
 
   background-repeat:
     repeat,
     repeat;
+
+  background-blend-mode:
+    multiply;
 }
 
 
@@ -363,7 +363,6 @@ footer {
     padding-top: 15px;
 
     background-size:
-      auto,
       auto,
       700px auto;
   }
