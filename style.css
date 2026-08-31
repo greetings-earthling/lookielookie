@@ -57,6 +57,16 @@ p {
 .hero {
   padding: 35px 0 35px;
   text-align: center;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(255, 220, 80, .10),
+      rgba(255, 120, 80, .07) 25%,
+      rgba(120, 190, 255, .06) 50%,
+      rgba(170, 120, 255, .04) 70%,
+      transparent 82%
+    ),
+    #fff;
 }
 
 .hero-inner {
@@ -121,6 +131,16 @@ p {
 .cards-section {
   padding: 25px 0 55px;
   overflow: hidden;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 90, 90, .035),
+      rgba(255, 190, 70, .04),
+      rgba(255, 225, 90, .04),
+      rgba(90, 190, 120, .035),
+      rgba(80, 170, 230, .04),
+      rgba(150, 100, 220, .035)
+    );
 }
 
 .card-row {
