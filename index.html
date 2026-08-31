@@ -248,6 +248,34 @@
 
     </div>
   </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const row = document.querySelector(".card-fan");
 
+  if (!row || window.innerWidth > 750) return;
+
+  let direction = 1;
+  let paused = false;
+
+  const autoScroll = setInterval(() => {
+    if (paused) return;
+
+    row.scrollLeft += direction;
+
+    if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 2) {
+      direction = -1;
+    }
+
+    if (row.scrollLeft <= 0) {
+      direction = 1;
+    }
+  }, 30);
+
+  row.addEventListener("touchstart", () => paused = true);
+  row.addEventListener("touchend", () => {
+    setTimeout(() => paused = false, 1500);
+  });
+});
+</script>
 </body>
 </html>
