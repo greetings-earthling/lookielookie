@@ -245,17 +245,27 @@ p {
 
 .spot-section {
   background-image:
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(255, 220, 80, .10),
+      rgba(255, 120, 80, .07) 25%,
+      rgba(120, 190, 255, .06) 50%,
+      rgba(170, 120, 255, .04) 70%,
+      transparent 82%
+    ),
     linear-gradient(
-      rgba(247, 247, 247, .84),
-      rgba(247, 247, 247, .84)
+      rgba(255, 255, 255, .82),
+      rgba(255, 255, 255, .82)
     ),
     url("images/background.png");
 
   background-size:
     auto,
+    auto,
     800px auto;
 
   background-repeat:
+    no-repeat,
     repeat,
     repeat;
 }
