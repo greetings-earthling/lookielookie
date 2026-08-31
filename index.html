@@ -243,6 +243,21 @@
 
     </div>
   </footer>
+<script>
+  window.addEventListener("load", function () {
+    if (window.innerWidth <= 750) {
+      const row = document.querySelector(".card-row");
+      const cards = document.querySelectorAll(".game-card");
+      const middleCard = cards[2];
 
+      if (row && middleCard) {
+        row.scrollLeft =
+          middleCard.offsetLeft -
+          (row.clientWidth / 2) +
+          (middleCard.clientWidth / 2);
+      }
+    }
+  });
+</script>
 </body>
 </html>
